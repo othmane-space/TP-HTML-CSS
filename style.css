@@ -538,7 +538,7 @@ label{
      }
      ul{
       column-gap: 40px;
-      margin-left:0px
+      margin-left:0px;
        display:none;
      }
     }
