@@ -345,7 +345,7 @@ label{
     cursor: pointer;
    }
   #check1:checked ~ .square::before{
-    content: 'a';
+    content: '✓';
     position: absolute;
     font-size: 17px;
     color: #5692D9;
@@ -354,7 +354,7 @@ label{
      border-color:#5692D9 ;
      }
    #check2:checked ~ .square::before{
-     content: 'a';
+     content: '✓';
      position: absolute;
      font-size: 17px;
      color: #5692D9;
