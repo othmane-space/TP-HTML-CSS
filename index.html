@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>TP-HTML-CSS</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+ <header>
+  <div class="s10">
+  <span class="logo">DES</span>
+  <nav>
+   <ul>
+    <li class="n-active">About</li>
+    <li class="active">Blog</li>
+    <a href="#contact"><li class="n-active">Contact</li></a>
+   </ul>
+  </nav>
+</div>
+  <a href="#contact"><button class="btn btn-shadow">Contact me</button></a>
+ </header>
+
+<section class="hero">
+ <div class="h-txt">
+  <span class="s1">DES101-DES102</span>
+  <span class="H">Hi, I'm an UX/UI Designer</span>
+  <p class="txt SH">I’m Senior UX/UI Designer, I strongly believe in ‘User-centric design’ in order to create a great product experience.<br><br>I use design and strategy to turn your ideas into beautiful and easy to use products.</p>
+  <a href="#contact"><button class="btn">Contact me</button></a>
+ </div>
+ <div class="h-img">
+  <img src="/ressources/zoomed-out.png" alt="person">
+ </div>
+</section>
+
+<section class="services">
+ <h1 class="h1-s">My Services</h1>
+
+ <div class="services-liste">
+
+  <div class="service wc">
+   <span class="h3 w">Websites</span>
+   <p class="txt w">Websites that align with your goals.</p>
+  </div>
+
+  <div class="service sc">
+   <span class="h3 s">SaaS Dashboards</span>
+   <p class="txt s">SaaS Dashboards people love to use.</p>
+  </div>
+
+  <div class="service mc">
+   <span class="h3 m">Mobile Apps</span>
+   <p class="txt m">Mobile Apps to stand away from the crowd.</p>
+  </div>
+
+ </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+ <div class="side1">
+ <h1>Contact me</h1>
+
+ <div class="additional-info">
+ <span class="txt">Des101-102@gmail.com</span>
+ <a class="txt link" href="https://www.des101-102.com">www.des101-102.com</a>
+ <span class="txt">+212 6 00 00 00 00</span>
+ <span class="txt">Agadir, CMC, Maroc</span>
+</div>
+</div>
+
+<div class="side2">
+ <form action="https://formsubmit.co/haraldvob@gmail.com" method="POST">
+
+<div class="inpt">
+<label for="name">Nom</label>
+<input type="text" name="name" id="name" placeholder="Votre nom ici..." required>
+</div>
+
+<div class="inpt">
+<label for="prénom">Prénom</label>
+<input type="text" name="name" id="prénom" placeholder="Votre prénom ici..." required>
+</div>
+
+<div class="inpt">
+ <label for="email">Email</label>
+ <input type="email" name="email" id="email" placeholder="Votre email ici..." required>
+ </div>
+
+ <div class="inpt">
+  <label for="ville">Ville</label>
+  <select name="ville" id="ville" required>
+    <option value="Agadir">Choisissez une ville</option>
+   <option value="Agadir">Agadir</option>
+   <option value="Agadir">Casablanca</option>
+   <option value="Agadir">Marrakech</option>
+   <option value="Agadir">Tanger</option>
+   <option value="Agadir">Rabat</option>
+   <option value="Agadir">Autre</option>
+  </select>
+  </div>
+
+  <div class="inpt">
+   <label>Sexe</label>
+   <div class="input">
+    <div class="homme">
+     <input class="rr" type="radio" name="r" id="sexe1" required>
+     <label class="lb" for="sexe1">Homme</label>
+     <label class="cercle" for="sexe1"></label>
+    </div>
+    <div class="femme">
+     <input class="rr" type="radio" name="r" id="sexe2" required>
+     <label class="lb" for="sexe2">Femme</label>
+     <label class="cercle" for="sexe2"></label>
+    </div>
+   </div>
+  </div>
+ 
+  <div class="inpt">
+   <label>Projet</label>
+   <div class="input">
+    <div class="forfaitaire">
+     <input class="rr" type="checkbox" name="r1" id="check1" required>
+     <label class="lb" for="check1">Forfaitaire</label>
+     <label class="square" for="check1"></label>
+    </div>
+    <div class="regie">
+     <input class="rr" type="checkbox" name="r1" id="check2" required>
+     <label class="lb" for="check2">Régie</label>
+     <label class="square" for="check2"></label>
+    </div>
+   </div>
+  </div>
+
+  <div class="inpt t-inpt">
+   <label for="message">Message</label>
+   <textarea name="message" id="message" placeholder="Votre message ici..." required></textarea>
+  </div>
+  
+  <div class="submit">
+  <button type="submit" class="btn f-btn">Envoyer</button>
+  </div>
+</form>
+</div>
+
+</section>
+
+<section class="footer">
+ <span class="txt">2022 © DES101-DES102</span>
+ <span class="txt">Designed & Developed with love by DES101-DES102.</span>
+</section>
+
+</body>
+</html>
