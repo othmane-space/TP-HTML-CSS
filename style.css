@@ -55,7 +55,7 @@ body{
   justify-content: center;
   align-items: center;
   transform: translateY(-1000%);
-  transition: .5s;
+  transition: 1s;
 }
 .close{
   position: absolute;
