@@ -12,11 +12,24 @@
  <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
+ <input class="r10" type="radio" name="r" id="menu">
+ <input class="r10" type="radio" name="r" id="close">
+
+  <nav class="h-menu">
+   <ul class="h-ul">
+    <a href="#"><li class="no-s">About</li></a>
+    <a href="index.html"><li class="selected">Blog</li></a>
+    <a href="#contact"><li class="no-s">Contact</li></a>
+   </ul>
+   <label for="close"><svg class="close" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M29.5834 3.35425L26.6459 0.416748L15 12.0626L3.35419 0.416748L0.416687 3.35425L12.0625 15.0001L0.416687 26.6459L3.35419 29.5834L15 17.9376L26.6459 29.5834L29.5834 26.6459L17.9375 15.0001L29.5834 3.35425Z" fill="white"/>
+    </svg></label> 
+  </nav>
+
  <header>
   <div class="s10">
   <span class="logo">DES</span>
-  <nav>
+  <nav class="header-p">
    <ul>
     <li class="n-active">About</li>
     <li class="active">Blog</li>
@@ -24,7 +37,13 @@
    </ul>
   </nav>
 </div>
+<div class="end-header">
   <a href="#contact"><button class="btn btn-shadow">Contact me</button></a>
+  <label for="menu"><svg class="menu" width="35" height="26" viewBox="0 0 35 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M35 5.5V0.5H0V5.5H35ZM35 15.5V10.5H0V15.5H35ZM35 25.5V20.5H0V25.5H35Z" fill="black"/>
+    </svg>
+    </label>
+</div>
  </header>
 
 <section class="hero">
