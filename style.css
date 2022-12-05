@@ -93,7 +93,7 @@ header{
  display: flex;
  align-items: center;
  justify-content: space-between;
- margin-top: -3rem;
+ margin-top: 0rem;
 }
 .txt{
  line-height: var(--txt-lh);
@@ -324,7 +324,7 @@ input:hover,textarea:hover,select:hover{
 input:focus,textarea:focus,textarea:fo{
  border: 2px solid var(--blue);
 }
-label{
+label,.inpt span{
  font-size: var(--txt-s);
 }
 .input{
@@ -397,7 +397,7 @@ label{
     cursor: pointer;
    }
   #check1:checked ~ .square::before{
-    content: 'a';
+    content: '✓';
     position: absolute;
     font-size: 17px;
     color: #5692D9;
@@ -406,7 +406,7 @@ label{
      border-color:#5692D9 ;
      }
    #check2:checked ~ .square::before{
-     content: 'a';
+     content: '✓';
      position: absolute;
      font-size: 17px;
      color: #5692D9;
